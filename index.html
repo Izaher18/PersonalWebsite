@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ilias Zaher — Computer Science</title>
+    <meta
+      name="description"
+      content="Ilias Zaher is a computer science student at Boston University. Portfolio of software projects including Pulse, Autonoma, and the Faythe Foundation website."
+    />
+    <meta property="og:title" content="Ilias Zaher — Computer Science" />
+    <meta
+      property="og:description"
+      content="Computer science student at Boston University. Selected software projects, built in public."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#about">Skip to about</a>
+
+    <header class="site-header">
+      <a class="mark" href="#top">IZ</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        Menu
+      </button>
+    </header>
+
+    <div class="menu" id="menu" hidden>
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Boston University · Computer Science</p>
+        <h1>Ilias Zaher</h1>
+        <div class="hero-copy">
+          <p>
+            I build software that still has to work after the demo: scheduled jobs,
+            data models that answer questions quickly, and public pages people
+            actually open.
+          </p>
+        </div>
+        <div class="hero-aside">
+          <p class="hero-note">Looking for any roles.</p>
+          <ul class="hero-links">
+            <li><a href="https://github.com/Izaher18" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/ilias-zaher" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:izaher101@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-heading">
+        <div class="section-label">
+          <h2 id="about-heading">About</h2>
+          <p>B.S. Computer Science · Boston University · May 2027</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy">
+            <img
+              src="https://avatars.githubusercontent.com/u/180359755?v=4"
+              alt="Portrait of Ilias Zaher"
+              width="96"
+              height="96"
+            />
+            <p>
+              I’m studying computer science at Boston University. I like work
+              where the hard part is behind the screen: a job that has to run on
+              time, a query that has to stay cheap, a model that has to hold up
+              on real streets.
+            </p>
+            <ul class="roles">
+              <li>
+                <p class="when">Jul 2025 – Oct 2025</p>
+                <h3>AI / ML research assistant</h3>
+                <p class="where">Human to Everything Lab, Boston University</p>
+                <p>
+                  Used LangChain to build conversational guidance for people with
+                  visual impairments, and turned Boston Seaport imagery into a
+                  CARLA map the lab could train navigation models on.
+                </p>
+              </li>
+              <li>
+                <p class="when">May 2025 – Jul 2025</p>
+                <h3>Full-stack developer intern</h3>
+                <p class="where">Faythe Marie Brannon Foundation</p>
+                <p>
+                  Shipped the scholarship site to production. It has served more
+                  than 1,000 people and brought in over $10,000 in donations.
+                </p>
+              </li>
+              <li>
+                <p class="when">May 2024 – Jul 2024</p>
+                <h3>Software and data intern</h3>
+                <p class="where">Office of State Representative David Ortiz</p>
+                <p>
+                  Built a PostgreSQL system that logged constituent calls and
+                  kept a live supporter list, and reworked schemas so voter
+                  lookups were fast enough for the campaign.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="skills">
+            <h3>Skills</h3>
+            <div class="skill-group">
+              <h4>Languages</h4>
+              <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Go</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>SQL</li>
+                <li>C</li>
+                <li>OCaml</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h4>Frameworks and tools</h4>
+              <ul>
+                <li>React</li>
+                <li>Next.js</li>
+                <li>Node.js</li>
+                <li>Spring Boot</li>
+                <li>PostgreSQL</li>
+                <li>PyTorch</li>
+                <li>LangChain</li>
+                <li>scikit-learn</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="work" id="work" aria-labelledby="work-heading">
+        <div class="section-label">
+          <h2 id="work-heading">Selected work</h2>
+          <p>Projects from <a href="https://github.com/Izaher18" target="_blank" rel="noopener noreferrer">github.com/Izaher18</a></p>
+        </div>
+
+        <article class="project">
+          <p class="index">01</p>
+          <div class="project-body">
+            <h3>Pulse</h3>
+            <p>
+              Pulse polls endpoints on a schedule, records the status code and
+              response time of every check, and turns that history into uptime
+              percentages you can publish.
+            </p>
+            <p>
+              The parts I wanted practice on are the ones class projects usually
+              skip: a checker with timeouts and retries, Postgres queries that
+              aggregate a month of checks instead of loading them into the app,
+              and status pages served from a short cache so a burst of readers
+              costs one set of queries.
+            </p>
+          </div>
+          <div class="project-side">
+            <p class="project-kicker">Uptime monitoring</p>
+            <ul class="stack">
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Postgres</li>
+              <li>Prisma</li>
+              <li>Tailwind</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/Izaher18/pulse" target="_blank" rel="noopener noreferrer">Source</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="index">02</p>
+          <div class="project-body">
+            <h3>Autonoma</h3>
+            <p>
+              A Python framework for agents that plan tasks, call tools, and
+              keep memory. Research, code, and data agents run through
+              asynchronous pipelines on the OpenAI API and LangChain, and an
+              orchestrator can hand work between them.
+            </p>
+          </div>
+          <div class="project-side">
+            <p class="project-kicker">Agent framework</p>
+            <ul class="stack">
+              <li>Python</li>
+              <li>LangChain</li>
+              <li>OpenAI</li>
+              <li>AsyncIO</li>
+            </ul>
+            <p class="links">
+              <a href="https://github.com/Izaher18/Autonoma" target="_blank" rel="noopener noreferrer">Source</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="index">03</p>
+          <div class="project-body">
+            <h3>Faythe Foundation</h3>
+            <p>
+              The public site for the Faythe Marie Brannon Foundation, a nonprofit
+              continuing a Chicago computer science educator’s work through
+              scholarships. I built it during a summer internship. It is live,
+              collects donations, and has been used by more than 1,000 people.
+            </p>
+          </div>
+          <div class="project-side">
+            <p class="project-kicker">Shipped website</p>
+            <ul class="stack">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Vercel</li>
+            </ul>
+            <p class="links">
+              <a href="https://faythe-foundation.vercel.app" target="_blank" rel="noopener noreferrer">Live site</a>
+              <a href="https://github.com/Izaher18/FaytheFoundation" target="_blank" rel="noopener noreferrer">Source</a>
+            </p>
+          </div>
+        </article>
+
+        <article class="project">
+          <p class="index">04</p>
+          <div class="project-body">
+            <h3>Dine and Dash</h3>
+            <p>
+              Predicts how busy Boston University dining halls are. An XGBoost
+              model trained on historical records refreshes every three minutes
+              so students can see the wait before they walk over.
+            </p>
+          </div>
+          <div class="project-side">
+            <p class="project-kicker">Dining hall traffic</p>
+            <ul class="stack">
+              <li>Python</li>
+              <li>XGBoost</li>
+              <li>scikit-learn</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <div class="contact-grid">
+          <a class="email" href="mailto:izaher101@gmail.com">izaher101@gmail.com</a>
+          <div>
+            <p class="phone"><a href="tel:+17202209346">720-220-9346</a></p>
+            <ul class="contact-links">
+              <li><a href="https://github.com/Izaher18" target="_blank" rel="noopener noreferrer">github.com/Izaher18</a></li>
+              <li><a href="https://www.linkedin.com/in/ilias-zaher" target="_blank" rel="noopener noreferrer">linkedin.com/in/ilias-zaher</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Ilias Zaher</p>
+      <p>Boston University</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
